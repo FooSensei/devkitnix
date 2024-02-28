@@ -123,7 +123,7 @@
       buildPhase = "true";
       installPhase = ''
         mkdir -p $out
-        cp -r $src/{devkitPPC,libogc,portlibs,tools,wut} $out
+        cp -r $src/{devkitPPC,cmake,examples,libogc,portlibs,tools,wut} $out
         rm -rf $out/pacman
       '';
     };
